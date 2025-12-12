@@ -25,7 +25,7 @@ Model YOLOv12 dijalankan di perangkat (ONNX / TensorFlow Lite / NCNN — sesuai 
 Sistem mengekstrak lokasi **bounding box** manusia dari hasil inferensi.
 
 ### 4. Direction Estimation  
-Aplikasi memprediksi **arah gerakan target** (kiri, kanan, maju, menjauh) berdasarkan perubahan posisi objek di frame.
+Aplikasi memprediksi **arah gerakan target** (kiri, kanan,tengah) berdasarkan perubahan posisi objek di frame.
 
 ### 5. UI Rendering  
 Menampilkan video kamera, hasil deteksi, dan indikator arah langsung pada layar pengguna.
